@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav container justify-between justify-center">
+        <div class="logo container align-center justify-between">
+            <h1>profile</h1>
+            <a href="">Home</a>
+            <a class="bold" href="">My Profile</a>
+            <a href="">Find Connections</a>
+        </div>
+        <div class="logo container align-center justify-right">
+            <button>Sign Out</button>
+        </div>
+    </div>
+    <div class="main container justify-center">
+        <div class="column container">
+            <div class="profile col-2">
+                <div class="info">
+                    <div class="header"></div>
+                    <div class="profileinfoholder">
+                        <div> <img src="img/down1.png" alt="profile pic" class="programmer"></div>
+                        <div>
+                            <p id="profilename" class="name">Shalini</p>
+                        </div>
+                        <p><img src="img/map.jpg" alt="map pic" class="map">
+                            <a href="#">Seattle</a>
+                        </p>
+                        <p class="para">Developer | Engineer | Problem Solver</p>
+                        <p class="para">Master of shadows and the internet</p>
+                        <div class="editprofile">
+                            <img src="img/setting.png" alt="setting" class="setting">
+                            <button  onclick="myname('#profilename')" >Edit Profile</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="profileinfoholder">
+                        <div class="header1 container align-center">
+                            <h1>Education</h1>
+                        </div>
+                        <p class="fontsize1">Coding Dojo-Full Stack Bootcamp</p>
+                        <p class="fontsize2">Dec 2019-Mar 2020</p>
+                        <p class="fontsize3">Triple block belt in Python,Mern,and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="connections col-1">
+                <div class="info">
+                    <div class="header2 container align-center justify-between">
+                        <button id="changenumber" style="border-radius: 50%;">2</button>
+                        <h1>Connection Request</h1>
+                    </div>
+                    <div class="profileinfoholder">
+                        <p id="request1"><img src="img/adrien-s.jpg" alt="profile pic" class="map">Adrien S
+                            <img onclick="addprofile('#changenumber','#changenumber1','#request1')" src="img/accept-circle.png" alt="profile pic" class="map">
+                            <img onclick="removeprofile('#changenumber','#changenumber1','#request1')" src="img/close-circle.png" alt="profile pic" class="map">
+                        </p>
+                        <p id="request2"><img src="img/alayne-s.jpg" alt="profile pic" class="map">Alayne S
+                            <img onclick="addprofile1('#changenumber','#changenumber1','#request2')" src="img/accept-circle.png" alt="profile pic" class="map">
+                            <img onclick="removeprofile1('#changenumber','#changenumber1','#request2')" src="img/close-circle.png" alt="profile pic" class="map">
+                        </p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="header3 container align-center justify-between">
+                        <button id ="changenumber1" style="border-radius: 50%;">498</button>
+                        <h1>Your Connections</h1>
+                    </div>
+                    <div class="profileinfoholder">
+                        <p><img src="img/adrien-s.jpg" alt="profile pic" class="map">Adrien S</p>
+                        <p><img src="img/alayne-s.jpg" alt="profile pic" class="map">Alayne S</p>
+                        <p><img src="img/adrien-s.jpg" alt="profile pic" class="map">Adrien S</p>
+                        <p><img src="img/alayne-s.jpg" alt="profile pic" class="map">Alayne S</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="profileinfoholder">
+                        <a href="">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

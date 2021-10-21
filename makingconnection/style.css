@@ -1,0 +1,156 @@
+.container{
+    display: flex;
+}
+.main{
+    height: 500px;
+}
+.justify-left {
+    justify-content: left;
+}
+.justify-right {
+    justify-content: right;
+}
+.justify-center {
+    justify-content: center;
+}
+.jutify-around{
+	justify-content: space-around;
+}
+.align-center{
+	align-items: center;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.nav{
+	color:white;
+	background-color: black;
+	padding-left:12%;
+	padding-right: 5%;
+}
+.bold{
+	font-weight: bold;
+}
+.column{
+	width: 80%;
+}
+.col-1{
+	flex: 1;
+}
+.col-2{
+	flex: 2;
+}
+.col-3{
+	flex: 3;
+}
+.logo a{
+	margin-left: 30px;
+	color:white;
+    text-decoration: none;
+	width:150px;
+}
+.logo button{
+	background-color:cornflowerblue;
+	color:white;
+	margin-right:50px;
+}
+.profile{
+	height: 100%;
+	background-color: white;
+	padding:2%;	
+}
+.info{
+	border: 2px solid teal;
+	margin-bottom: 50px;
+}
+.profileinfoholder{
+	padding:3%;
+}
+.fontsize1{
+	font-size: 25px;
+}
+.fontsize2{
+	font-size: 15px;
+}
+.fontsize3{
+	font-size: 20px;
+	font-weight: bold;
+}
+img.programmer {
+    margin-left: 20px;
+    height: 70px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: white;
+    padding:5px;
+    border: 5px solid #555;
+}
+img.map{
+    margin:0px;
+    height: 20px;
+    width: 20px;
+    margin-left:20px;
+}
+img.setting{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    margin-left:20px;
+}
+.setting a{
+    color:skyblue;
+}
+p.name{
+    margin-left:40px;
+    font-style:oblique;
+    font-weight: bold;
+	font-size:30px;
+}
+.header{
+	background-color:teal;
+	height: 70px;
+	margin-bottom: -45px;
+}
+.header1{
+	background-color:black;
+	height: 70px;
+}
+.header1 h1{
+	color:white;
+	font-size: 1rem;
+	justify-content: right;
+    margin:10px;
+}
+.connections{
+	height: 100%;
+	background-color:white;
+    padding:2%
+}
+.header2{
+	background-color:black;
+	height: 70px;
+
+}
+.header2 h1{
+	color:white;
+	font-size: 1rem;
+	justify-content: right;
+}
+.header3{
+	background-color:black;
+	height: 70px;
+}
+.header3 h1{
+	color:white;
+	font-size: 1rem;
+	justify-content: right;
+}
+p.para{
+    margin-left: 20px;
+}
+.editprofile button {
+text-decoration:underline;
+border: none;
+background-color: white;
+color:steelblue;
+}
