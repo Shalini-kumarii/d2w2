@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+.main{
+    height: 300px;
+    width:500px;
+    justify-content: center;
+    background-color: gray;
+    border: 2px;
+    border-color: black;
+    padding: 10px 20px 10px 20px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div counter{
+    align-items: center;
+    padding: 5px;
+}
+.counter div p{
+    margin-left: 10px;
+}
+.counter button{
+    align-items: left;
+    margin-left: 20px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    height: 30px;
+    width: 90px;
+    box-shadow: 10px 5px 5px black;
+}
